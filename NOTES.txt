@@ -1,0 +1,27 @@
+DASHBOARD
+
+> Summary for the current year
+    + Transactions (count)
+    + People fed (count)
+    + Weight (kg)
+
+> Charts (Daily/Weekly/Monthly/Yearly)
+    + Transactions
+        - Total Fed
+    + Item Count
+    + Weight (kg)
+
+> Summary
+    + Average transactions/day
+    + 
+
+> Comparison
+    + People vs Groups (pie)
+
+
+MENU
+
+> Donors
+> Community Groups
+> Volunteers
+> Import Data
