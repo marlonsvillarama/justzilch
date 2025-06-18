@@ -3,21 +3,19 @@
 </script>
 
 <div class="sidebar">
-    <img src="/images/logo.svg" class="logo">
+    <div class="logo">
+        <img src="/images/logo.svg">
+    </div>
     <Menu />
 </div>
 
 <style>
     .sidebar {
         border-right: 1px solid var(--color-border);
-        height: 100%;
-        width: calc(var(--spacing) * 72);
+        height: 100vh;
     }
     .logo {
-        border: 1px solid red;
-        /* margin: 0 auto; */
-        margin-inline: 0 auto;
-        padding: 1rem;
-        width: calc(var(--spacing) * 48);
+        margin: 0 2.5rem 2rem;
+        padding-top: 1.5rem;
     }
 </style>

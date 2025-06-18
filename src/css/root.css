@@ -4,7 +4,7 @@
     /* --color-blue-grey: #E5EDF1; */
     /* --color-body: #F6F7FA; */
     --color-accent: #E21936;
-    --color-body: #FDFDFC;
+    --color-body: #F8F9FA;
     --color-border: #EDEDED;
     --color-font: #333;
     --color-font-lite: #999;
@@ -42,7 +42,8 @@ html {
 
 body {
     background-color: var(--color-body);
-    border: 1px solid red;
+    /* background-color: white; */
+    /* border: 1px solid red; */
     height: 100vh;
     width: 100%;
 }
