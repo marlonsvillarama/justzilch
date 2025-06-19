@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
+    --border-radius: 0.5rem;
+    --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
     /* --color-blue-grey: #E5EDF1; */
     /* --color-body: #F6F7FA; */
     --color-accent: #E21936;
@@ -25,6 +28,13 @@
     --fs-4xl: 3rem;
 
     --spacing: 0.25rem;
+
+    --width-xxl: 80rem;
+    --width-xl: 64rem;
+    --width-lg: 60rem;
+    --width-md: 48rem;
+    --width-sm: 40rem;
+    --width-xs: 24rem;
 }
 
 *,

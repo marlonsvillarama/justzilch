@@ -10,6 +10,16 @@
 </div>
 
 <style>
+    /* .sidebar {
+        display: none;
+        border-right: 1px solid var(--color-border);
+        height: 100vh;
+    }
+    @media (min-width: 40rem) {
+        .sidebar {
+            display: block;
+        }
+    } */
     .sidebar {
         border-right: 1px solid var(--color-border);
         height: 100vh;

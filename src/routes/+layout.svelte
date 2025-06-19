@@ -11,13 +11,8 @@
 		<Sidebar />
 	</div>
 	<div class="right">
-		<div class="top">
-			<Header />
-		</div>
-		<div class="content">
-			<div class="etc">test</div>
-			{@render children()}
-		</div>
+		<!-- <Header /> -->
+		{@render children()}
 	</div>
 </div>
 
@@ -31,19 +26,36 @@
 		flex-direction: row;
 	}
 	.side {
-        width: calc(var(--spacing) * 64);
-		/* position: fixed;
-		top: 0;
-		height: 100vh;
-        width: calc(var(--spacing) * 64); */
+		display: none;
+	}
+	@media (min-width: 48rem) {
+		.side {
+			/* width: calc(var(--spacing) * 64); */
+			background-color: white;
+			display: block;
+			position: fixed;
+			top: 0;
+			height: 100vh;
+			width: calc(var(--spacing) * 64);
+		}
 	}
 	.right {
+		background-color: var(--color-body);
+		/* border: 1px solid red; */
+		/* height: 2000px; */
 		flex: 1;
-		display: flex;
-		flex-direction: column;
+		padding: 2rem;
+		height: 2000px;
+		/* display: flex;
+		flex-direction: column; */
 	}
-	.top {
-		flex: 0;
+	@media (min-width: 48rem) {
+		.right {
+			margin-left: calc(var(--spacing) * 64);
+		}
+	}
+	/* .top { */
+		/* flex: 0; */
 		/* position: fixed;
 		top: 0;
 		width: 100%;
@@ -51,13 +63,13 @@
 		/* flex: 1; */
 		/* display: flex; */
 		/* flex-direction: column; */
-	}
+	/* } */
 	.content {
-		background-color: var(--color-border);
-		border: 1px solid red;
-		flex-grow: 1;
-		height: 100%;
+		/* background-color: var(--color-border); */
+		/* border: 1px solid red; */
+		/* flex-grow: 1; */
+		padding: 2rem;
 		/* overflow-x: hidden; */
-		overflow: scroll;
+		/* overflow: scroll; */
 	}
 </style>
