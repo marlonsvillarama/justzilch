@@ -4,7 +4,7 @@
 
 <div class="sidebar">
     <div class="logo">
-        <img src="/images/logo.svg">
+        <img src="/images/logo.svg" alt="">
     </div>
     <Menu />
 </div>

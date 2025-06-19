@@ -64,12 +64,12 @@
 		/* display: flex; */
 		/* flex-direction: column; */
 	/* } */
-	.content {
+	/* .content { */
 		/* background-color: var(--color-border); */
 		/* border: 1px solid red; */
 		/* flex-grow: 1; */
-		padding: 2rem;
+		/* padding: 2rem; */
 		/* overflow-x: hidden; */
 		/* overflow: scroll; */
-	}
+	/* } */
 </style>

@@ -5,24 +5,24 @@
 <nav>
     <ul>
         <li>
-            <img src="/images/chart.svg">
+            <img src="/images/chart.svg" alt="">
             <a href="/">Dashboard</a>
         </li>
         <li class="active">
-            <img src="/images/donor.svg">
-            <a href="#">Donors</a>
+            <img src="/images/donor.svg" alt="">
+            <a href="/">Donors</a>
         </li>
         <li>
-            <img src="/images/community.svg">
-            <a href="#">Community Groups</a>
+            <img src="/images/community.svg" alt="">
+            <a href="/">Community Groups</a>
         </li>
         <li>
-            <img src="/images/volunteer.svg">
-            <a href="#">Volunteers</a>
+            <img src="/images/volunteer.svg" alt="">
+            <a href="/">Volunteers</a>
         </li>
         <li>
-            <img src="/images/data.svg">
-            <a href="#">Data Import</a>
+            <img src="/images/data.svg" alt="">
+            <a href="/">Data Import</a>
         </li>
     </ul>
 </nav>
