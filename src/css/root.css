@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
     --border-radius: 0.5rem;
@@ -13,7 +13,7 @@
     --color-font-lite: #999;
 
     --font-serif: 'Times New Roman', serif;
-    --font-sans: 'Instrument Sans', Tahoma, Geneva, Verdana, sans-serif;
+    --font-sans: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
 
     --fs-4xs: 0.6125rem;
     --fs-3xs: 0.675rem;
@@ -55,5 +55,17 @@ body {
     /* background-color: white; */
     /* border: 1px solid red; */
     height: 100vh;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: clamp(1.25rem, 3vw, 1.5rem);
     width: 100%;
 }

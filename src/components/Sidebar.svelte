@@ -25,7 +25,8 @@
         height: 100vh;
     }
     .logo {
-        margin: 0 2.5rem 2rem;
-        padding-top: 1.5rem;
+        /* border: 1px solid red; */
+        padding: 1.5rem 2.5rem 2rem;
+        /* padding-top: 1.5rem; */
     }
 </style>

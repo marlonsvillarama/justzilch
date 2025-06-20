@@ -23,7 +23,7 @@
     };
 </script>
 
-<div class="metric">
+<div class="card">
     <div class="header">
         <img src={img} alt={title} />
         <span>{title}</span>
@@ -43,59 +43,45 @@
 </div>
 
 <style>
-    .metric {
+    /* .metric {
         background-color: white;
-        /* border: 1px solid var(--color-border); */
         border-radius: var(--border-radius);
         box-shadow: var(--box-shadow);
-        padding: 2rem;
+        padding: clamp(1.25rem, 3vw, 2rem);
         width: 100%;
-        /* width: 20rem; */
-    }
+    } */
     .header {
         display: flex;
         flex-direction: row;
-        /* gap: 1rem; */
         align-items: center;
         justify-content: space-between;
         margin-bottom: 0.5rem;
     }
     .header > img {
-        width: 1.5rem;
+        width: clamp(1.25rem, 3vw, 1.5rem);
     }
     .header > span {
         color: var(--color-font-lite);
-        font-size: var(--fs-md);
-        font-weight: 500;
+        font-size: clamp(var(--fs-xs), 3vw, var(--fs-sm));
     }
     .stat {
-        /* border: 1px solid red; */
         align-items: baseline;
         display: flex;
         flex-direction: row;
         gap: 0.25rem;
         justify-content: center;
         margin-bottom: 0.25rem;
-        /* text-align: center; */
     }
     .stat > .value {
         color: var(--color-accent);
-        font-size: 2.125rem;
+        font-size: clamp(var(--fs-xl), 3vw, var(--fs-3xl));
         font-weight: 700;
         letter-spacing: 2px;
     }
-    @media (min-width: 24rem) {
-        .stat > .value {
-            font-size: 2.5rem;
-        }
-    }
     .stat > .units {
         color: var(--color-font-lite);
-        font-size: var(--fs-2xl);
+        font-size: clamp(var(--fs-lg), 3vw, var(--fs-2xl));
         font-weight: bold;
-    }
-    @media (min-width: 24rem) {
-
     }
     .context {
         display: flex;
@@ -106,26 +92,14 @@
     }
     .context > * {
         letter-spacing: 0.25px;
+        font-size: clamp(var(--fs-2xs), 3vw, var(--fs-sm));
     }
     .indicator {
-        /* background-color: var(--color-border); */
-        border: 0;
-        border-radius: var(--border-radius);
         color: var(--color-font);
-        font-size: var(--fs-md);
         font-weight: 600;
-        letter-spacing: 0.25px;
-        /* padding: 0.5rem 0.75rem; */
     }
-    /* .indicator.up {
-        background-color: rgb(32 183 153 / 1);
-    }
-    .indicator.down {
-        background-color: var(--color-accent);
-    } */
     .context > span {
         color: var(--color-font-lite);
-        font-size: var(--fs-xs);
         font-weight: 300;
     }
 </style>

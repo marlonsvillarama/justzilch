@@ -30,7 +30,7 @@
 <style>
     nav {
         /* border: 1px solid green; */
-        font-size: var(--fs-xs);
+        font-size: var(--fs-2xs);
         /* min-width: calc(var(--spacing) * 72); */
         /* padding: 1rem; */
         width: 100%;

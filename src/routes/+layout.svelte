@@ -19,9 +19,6 @@
 <style>
 	.layout {
 		height: 100vh;
-		/* border: 1px solid red; */
-		/* display: flex; */
-		/* flex-direction: row; */
 		display: flex;
 		flex-direction: row;
 	}
